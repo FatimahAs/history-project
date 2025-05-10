@@ -105,6 +105,10 @@ nav button a:hover {
 	}
 }
 
+.bottom-menu {
+	display: none;
+}
+
 
 /***********   End Hero Design ***********/
 
@@ -118,14 +122,32 @@ nav button a:hover {
 /* Start Mobile Responsive */
 
 @media only screen and (max-width: 600px) {
-	nav ul {
-		width: 250px;
-		gap: 8%;
+	.navlink {
+		display: none;
 	}
 
-	nav a {
-		font-weight: 300;
-		font-size: 0.5em;
+	.bottom-menu {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		border-top: 1px solid #ccc;
+		display: flex;
+		justify-content: space-around;
+		padding: 6px 0;
+		box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+	}
+
+	.bottom-menu a {
+		text-decoration: none;
+		color: #333;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.bottom-menu img {
+		width: 15%;
 	}
 
 	.scene {
