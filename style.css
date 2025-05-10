@@ -133,6 +133,7 @@ nav button a:hover {
 		width: 100%;
 		background-color: #fff;
 		border-top: 1px solid #ccc;
+		border-radius: 90px;
 		display: flex;
 		justify-content: space-around;
 		padding: 6px 0;
@@ -144,10 +145,6 @@ nav button a:hover {
 		color: #333;
 		text-align: center;
 		font-size: 14px;
-	}
-
-	.bottom-menu img {
-		width: 15%;
 	}
 
 	.scene {
