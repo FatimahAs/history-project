@@ -335,7 +335,7 @@ nav button a:hover {
 
 /* Start Tablet Responsive */
 
-@media only screen and (max-width: 790px) {
+@media only screen and (min-width: 790px) {
 	.scene {
 		position: relative;
 		height: 38vh;
@@ -365,6 +365,13 @@ nav button a:hover {
 		background-size: 100%;
 		background-repeat: repeat-x;
 		animation: animateBg 60s linear infinite;
+	}
+
+	.container-card {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+		margin-top: 10%;
 	}
 }
 
@@ -438,7 +445,7 @@ nav button a:hover {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		height: 73%;
+		height: 78%;
 		background-image: url("./img/city.png");
 		background-size: 100%;
 		background-repeat: repeat-x;
