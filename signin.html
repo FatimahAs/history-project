@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="icon" href="./img/mosque.png" />
+
+    <title>تسجيل</title>
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+</style>
+
+<body dir="rtl">
+
+    <div id="wrapper">
+
+        <div class="form-box login">
+            <h2>تسجيل الدخول</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required />
+                    <label>البريد الالكتروني</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required />
+                    <label>كلمة المرور</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> تذكرني</label>
+                    <a href="#">نسيت كلمة المرور </a>
+                </div>
+                <button type="submit" class="btn">تسجيل الدخول</button>
+
+                <div class="login-register">
+                    <p>ليس لديك حساب ؟ <a href="#" id="register-link">تسجيل</a></p>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="form-box register">
+            <h2>تسجيل جديد</h2>
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon> </span>
+                    <input type="text" required />
+                    <label>اسم المستخدم</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required />
+                    <label>البريد الألكتروني</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required />
+                    <label>كلمة السر</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> اوافق على الشروط والأحكام</label>
+                </div>
+                <button type="submit" class="btn">تسجيل</button>
+
+                <div class="login-register">
+                    <p>لدي حساب <a href="#" id="login-link"> تسجيل الدخول</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
