@@ -57,7 +57,7 @@
 
                 <div class="input-box">
                     <span class="icon"><ion-icon name="person-outline"></ion-icon> </span>
-                    <input type="text" required />
+                    <input type="text" id="register-username" required />
                     <label>اسم المستخدم</label>
                 </div>
                 <div class="input-box">
@@ -68,14 +68,14 @@
 
                 <div class="input-box">
                     <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
-                    <input type="password" required />
+                    <input type="password" id="register-password" required />
                     <label>كلمة السر</label>
                 </div>
 
                 <div class="remember-forgot">
                     <label><input type="checkbox"> اوافق على الشروط والأحكام</label>
                 </div>
-                <button type="submit" class="btn">تسجيل</button>
+                <button type="submit" class="btn" id="register-btn">تسجيل</button>
 
                 <div class="login-register">
                     <p>لدي حساب <a href="#" id="login-link"> تسجيل الدخول</a></p>
@@ -85,7 +85,8 @@
     </div>
 
 
-    <script src="./main.js"></script>
+    <script src="./main.js">
+    </script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
